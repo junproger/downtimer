@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#sitetimer {
+				text-align:left;
+				color:darkblue;
+				font-size:2em;
+				}
+			#timeoclock {
+				text-align:left;
+				color:darkblue;
+				font-size:1.5em;
+				}
+		</style>
+	</head>
+		<body>
+			<div>
+				<p id="sitetimer" hidden></p>
+				<p id="timeoclock">
+					<span id="todays">00</span>
+					<span id="twodots" style="color:darkblue"> : </span>
+					<span id="tohours">00</span>
+					<span id="twodots" style="color:darkblue"> : </span>
+					<span id="tominutes">00</span>
+					<span id="twodots" style="color:darkblue"> : </span>
+					<span id="toseconds">00</span>
+				</p>
+			</div>
+			<script src="gettimeoclock.js" async="async"></script>
+		</body>
+</html>
